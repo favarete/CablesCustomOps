@@ -1,0 +1,65 @@
+{
+    "id": "36771134-2a95-4953-bbce-1785d0ca35bb",
+    "created": 1763388779525,
+    "license": "GPL-3.0-or-later",
+    "layout": {
+        "portsIn": [
+            {
+                "type": 1,
+                "name": "Update"
+            },
+            {
+                "type": 0,
+                "name": "Top X",
+                "subType": "number"
+            },
+            {
+                "type": 0,
+                "name": "Top Y",
+                "subType": "number"
+            },
+            {
+                "type": 0,
+                "name": "Bottom X",
+                "subType": "number"
+            },
+            {
+                "type": 0,
+                "name": "Bottom Y",
+                "subType": "number"
+            },
+            {
+                "type": 0,
+                "name": "Segments",
+                "subType": "integer"
+            },
+            {
+                "type": 0,
+                "name": "Rope Length",
+                "subType": "number"
+            },
+            {
+                "type": 0,
+                "name": "Gravity",
+                "subType": "number"
+            },
+            {
+                "type": 0,
+                "name": "Constraint Iterations",
+                "subType": "integer"
+            },
+            {
+                "type": 0,
+                "name": "Damping",
+                "subType": "number"
+            }
+        ],
+        "portsOut": [
+            {
+                "type": 3,
+                "name": "Points"
+            }
+        ]
+    },
+    "summary": "Simple 2D Rope using Verlet Integration"
+}
